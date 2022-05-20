@@ -57,7 +57,7 @@ function SignUp() {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-5 lg:w-1/2 mx-auto">
       <h2 className="text-2xl font-bold leading-7 sm:text-3xl sm:truncate">
         Join us now !
       </h2>

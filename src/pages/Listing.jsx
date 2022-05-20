@@ -69,7 +69,7 @@ function Listing() {
         </div>
 
         <div
-          className="fixed top-0 right-5 bg-white w-10 h-10 m-2 rounded-full grid place-content-center cursor-pointer z-10	"
+          className="absolute top-0 right-2 bg-white w-10 h-10 m-2 rounded-full grid place-content-center cursor-pointer z-10 lg:fixed"
           onClick={() => {
             navigator.clipboard.writeText(window.location.href);
             setShareLink(true);
